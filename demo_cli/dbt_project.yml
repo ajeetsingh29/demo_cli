@@ -35,5 +35,4 @@ models:
   demo_cli:
       # Applies to all files under models/example/
       example:
-          materialized: view
-          
+              

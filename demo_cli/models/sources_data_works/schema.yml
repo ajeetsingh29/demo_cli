@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: Shop_orders
+    description: 'This is a replica of the snowflake raw db'
+    database: raw
+    schema: jaffle_shop 
+    tables:
+      - name: orders

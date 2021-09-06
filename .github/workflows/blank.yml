@@ -34,4 +34,4 @@ jobs:
         pip install dbt
     - name: Deploy
       run: |
-        dbt run 
+        dbt test  
